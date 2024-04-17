@@ -1,0 +1,35 @@
+name: application6
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: ^0.18.0
+  connectivity_plus: ^5.0.2
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Mochiy Pop One
+      fonts: 
+        - asset: assets/fonts/MochiyPopOneRegular.ttf
+          weight: 400
+    - family: MuseoModerno
+      fonts: 
+        - asset: assets/fonts/MuseoModernoBold.ttf
+          weight: 700
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanBlack.ttf
+          weight: 900
